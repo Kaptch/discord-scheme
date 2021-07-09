@@ -1,0 +1,7 @@
+cradle:
+  cabal:
+    - path: "./Main.hs"
+      component: "dugin-fanclub:exe:dugin-fanclub"
+
+    - path: "./Scheme.hs"
+      component: "dugin-fanclub:exe:dugin-fanclub"

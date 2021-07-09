@@ -1,9 +1,5 @@
 source-repository-package
   type: git
   location: git://github.com/nitros12/calamity
-
-source-repository-package
-  type: git
-  location: git://github.com/HuwCampbell/grenade
   
 packages: ./dugin-fanclub.cabal
