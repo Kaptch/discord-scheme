@@ -1,4 +1,4 @@
-# Revision history for dugin-fanclub
+# Revision history for discord-scheme
 
 ## 0.1.0.0 -- YYYY-mm-dd
 

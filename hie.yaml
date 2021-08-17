@@ -1,7 +1,7 @@
 cradle:
   cabal:
     - path: "./Main.hs"
-      component: "dugin-fanclub:exe:dugin-fanclub"
+      component: "discord-scheme:exe:discord-scheme"
 
     - path: "./Scheme.hs"
-      component: "dugin-fanclub:exe:dugin-fanclub"
+      component: "discord-scheme:exe:discord-scheme"

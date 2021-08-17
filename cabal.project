@@ -2,4 +2,4 @@ source-repository-package
   type: git
   location: git://github.com/nitros12/calamity
   
-packages: ./dugin-fanclub.cabal
+packages: ./discord-scheme.cabal
