@@ -1,0 +1,31 @@
+cabal-version:       3.0
+name:                discord-scheme
+version:             0.1.0.0
+license-file:        LICENSE
+author:              Kaptch
+maintainer:          kaptch@gmail.com
+build-type:          Simple
+extra-source-files:  CHANGELOG.md
+
+executable discord-scheme
+  main-is:             Main.hs
+  other-modules:       Scheme
+  ghc-options: -fplugin=Polysemy.Plugin
+  build-depends:       base
+                     , calamity
+                     , polysemy
+                     , polysemy-plugin
+                     , stm
+                     , lens
+                     , text
+                     , text-show
+                     , di-polysemy
+		     , di
+		     , vector
+                     , random
+                     , data-flags
+                     , hashmap
+                     , hashable
+                     , mtl
+                     , parsec
+  default-language:    Haskell2010

@@ -1,0 +1,7 @@
+cradle:
+  cabal:
+    - path: "./Main.hs"
+      component: "discord-scheme:exe:discord-scheme"
+
+    - path: "./Scheme.hs"
+      component: "discord-scheme:exe:discord-scheme"
